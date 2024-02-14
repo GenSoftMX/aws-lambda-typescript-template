@@ -2,7 +2,8 @@
 
 # Vagrant
 .vagrant/
-build/
+build
+coverage
 # node.js
 lib-cov
 *.seed
