@@ -2,6 +2,7 @@
 
 # Vagrant
 .vagrant/
+
 build
 coverage
 # node.js
