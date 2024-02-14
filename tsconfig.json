@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "jsxImportSource": "preact",
+    "emitDecoratorMetadata": true,
+    "target": "es2017",
+    "strict": true,
+    "preserveConstEnums": true,
+    "noEmit": false,
+    "sourceMap": false,
+    "module":"CommonJS",
+    "moduleResolution":"node",
+    "esModuleInterop": true, 
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": false,  
+    "types": ["node", "jest"],
+    "outDir": "./build"
+  },
+  "include": ["index.ts","package.json"],
+  "exclude": ["node_modules", "**/*.test.ts"]
+}
