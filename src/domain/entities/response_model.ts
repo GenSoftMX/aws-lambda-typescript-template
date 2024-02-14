@@ -1,1 +1,3 @@
-export interface IResponse {}
+export interface IResponse {
+    current_date:String
+}

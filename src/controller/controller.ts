@@ -7,7 +7,8 @@ export class Controller {
     private dataSource: DataSourceImplementation = Container.get(DataSourceImplementation);
 
     async invoke(): Promise<IResponse> {
-        return {};
-    }
+        const currentDate = await this.dataSource.getCurrentDate();
 
+        return { current_date: currentDate };
+    }
 }

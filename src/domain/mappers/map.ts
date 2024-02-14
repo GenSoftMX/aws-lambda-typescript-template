@@ -15,6 +15,4 @@ export abstract class MapperService<S, T> implements IMapperService<S, T> {
             entityOrArray.map((item: S) => this.map(item)) :
             this.map(entityOrArray);
     }
-
 }
-
