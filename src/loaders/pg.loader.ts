@@ -1,5 +1,4 @@
 import { knex } from 'knex';
-import { Client } from 'pg';
 import Container from 'typedi';
 
 export class PGLoader {
