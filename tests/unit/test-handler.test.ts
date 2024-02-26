@@ -61,9 +61,6 @@ describe('Getting Date from server', function () {
             stageVariables: {},
         };
         const result: APIGatewayProxyResult = await mainHandler(event);
-
-        console.debug(result);
-
         expect(result.statusCode).toEqual(StatusCodes.OK);
     });
 
@@ -122,9 +119,6 @@ describe('Getting Date from server', function () {
             stageVariables: {},
         };
         const result: APIGatewayProxyResult = await mainHandler(event);
-
-        console.debug(result);
-
         expect(result.statusCode).toEqual(StatusCodes.METHOD_NOT_ALLOWED);
     });
 });
